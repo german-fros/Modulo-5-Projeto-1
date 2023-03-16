@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav li,
+#titles li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    text-decoration: none;
+}
+
+header .container, 
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+body > header {
+    background-color: rgb(28, 28, 228);
+}
+
+header h1,
+header nav li a {
+    color: white;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.felipe {
+    margin-right: 32px;
+    width: 650px;
+}
+
+.felipe-taça {
+    height: 400px;
+    margin-left: 32px;
+}
+
+.teams img {
+    height: 48px;
+}
+
+.teams li {
+    margin-right: 16px;
+    display: inline;
+}
+
+section h2,
+section h3,
+p {
+    margin-bottom: 16px;
+}
+
+.social-links img {
+    height: 48px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 16px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 8px;
+    width: 320px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
+
+#contact {
+    padding: 0 200px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
