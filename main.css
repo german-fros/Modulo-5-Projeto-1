@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Faustina', serif; 
+}
+
+section p {
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.teams, .taças, 
+
 .container {
     max-width: 1280px;
     width: 100%;
@@ -14,7 +35,7 @@ header nav li,
 #titles li {
     display: inline;
     margin-left: 16px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 header nav li a {
@@ -30,12 +51,23 @@ section .container{
 }
 
 body > header {
-    background-color: rgb(28, 28, 228);
+    background-color: rgb(57, 93, 176);
 }
 
 header h1,
 header nav li a {
     color: white;
+}
+
+section h2 {
+    color: rgb(57, 93, 176);
+}
+
+form button {
+    background-color: rgb(57, 93, 176);
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 section {
@@ -68,7 +100,15 @@ section .container {
 section h2,
 section h3,
 p {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+}
+
+#titles {
+    background-color: rgba(110, 152, 250, 0.181);
+}
+
+#contact {
+    padding: 0 200px;
 }
 
 .social-links img {
@@ -97,8 +137,12 @@ form textarea {
     resize: none;
 }
 
-#contact {
-    padding: 0 200px;
+input:focus, textarea:focus {
+    outline-color: rgb(57, 93, 176);
+}
+
+form button:hover {
+    background-color: rgb(96, 128, 205);
 }
 
 #contact .container {
@@ -108,4 +152,10 @@ form textarea {
 .contact-methods {
     display: flex;
     justify-content: space-between;
+}
+
+footer {
+    background-color: rgb(57, 93, 176);
+    color: white;
+    padding: 16px 0;
 }
